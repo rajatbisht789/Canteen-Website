@@ -1,0 +1,39 @@
+@font-face {
+    font-family: gothic;
+    src: url("fonts/GOTHICB.TTF");
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: Lato_Bold;
+    src: url("fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("fonts/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url("fonts/Quicksand-Regular.ttf");
+}
+
+@font-face {
+    font-family: Quicksand_Light;
+    src: url("fonts/Quicksand-Light.ttf");
+}

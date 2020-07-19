@@ -1,0 +1,66 @@
+/*Action CSS*/
+#user-image {
+    position: relative;
+    top: 2px;
+}
+
+#user-account:hover {
+    color: var(--text_skin);
+    cursor: pointer;
+}
+
+
+/*Top bar items*/
+
+#topbar {
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0 15px 0;
+}
+
+#logo-image {
+    width: 230px;
+    height: 100%;
+    object-fit: contain;
+    float: left;
+}
+
+#name-container {
+    width: 600px;
+    height: 100%;
+    margin: 0 50px 0 50px;
+    float: left;
+    color: var(--text_white);
+}
+
+#user-account {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    float: right;
+    display: block;
+}
+
+#user-image {
+    width: 22px;
+    height: 18px;
+    padding: 1px 4px 0 0;
+}
+
+
+/*Content Container*/
+
+#content-container {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#content-div {
+/*    height: 100%;*/
+    width: 1200px;
+    margin: 0 auto;
+}

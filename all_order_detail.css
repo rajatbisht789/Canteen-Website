@@ -1,0 +1,113 @@
+.container {
+    padding: 40px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 4;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.8); 
+    padding-top: 20px;
+}
+
+.modal h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.modal table {
+    border-spacing: 5px;
+    width: 100%;
+}
+
+.modal th {
+    text-align: left;
+    padding: 4px 0;
+    width: 150px;
+}
+
+.modal td {
+    text-align: right;
+    padding-left: 20px;
+}
+
+.modal select {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0;
+}
+
+.modal input[type=text] {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+#order_no {
+    text-decoration: underline;
+    font-size: 17px;
+    color: green !important;
+}
+
+#order_no:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.mode_of_payment {
+    font-size: 18px;
+    font-weight: bold;
+    color: indianred!important;
+}
+
+.modal button {
+    color: white;
+    margin-top: 25px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#cancel {
+    background-color: gray;
+}
+
+.button-color {
+    background-color: green;
+}
+
+.modal button:hover {
+    opacity: 0.8;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 6% auto 15% auto;
+    border: 1px solid #888;
+    width: 480px;
+}
+
+.modald span {
+    color: grey;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}

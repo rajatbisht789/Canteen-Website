@@ -1,0 +1,101 @@
+#content-div {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#user-info {
+    width: 740px;
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+}
+
+#order-detail {
+    height: 180px;
+    font-size: 18px;
+    border-bottom: 2px dashed #ccc;
+}
+
+.margin_btm {
+    margin-bottom: 10px;
+}
+
+.equal-spacing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifty {
+    width: 350px;
+}
+
+.height-fifty {
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.width-short {
+    width: 135px;
+    font-family: "Lato_Bold";
+}
+
+.width-long {
+    width: 200px;
+    font-size: 18px;
+    color: gray;
+}
+
+#address {
+    height: 155px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-bottom: 2px dashed #ccc;
+}
+
+#address-content {
+    height: 80px;
+    width: 585px;
+    padding-top: 13px;
+    color: dimgray;
+}
+
+.width-large {
+    width: 230px;
+    font-family: "Lato_Bold";
+    font-size: 18px;
+}
+
+.width-larger {
+    width: 480px;
+    font-family: "Lato";
+    font-size: 18px;
+    color: black;
+}
+
+#total {
+    height: 200px;
+    margin-top: 20px;
+}
+
+#items-container {
+    width: 400px;
+}
+
+.flex-end {
+    text-align: right;
+}
+
+#total_amount {
+    width: 100%;
+    font-family: "Lato_Bold";
+    display: flex;
+    justify-content: flex-end;
+    font-size: 28px;
+}
+
+.name-and-option {
+    width: 320px;
+}

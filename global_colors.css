@@ -1,0 +1,86 @@
+:root {
+    --redbrick: firebrick;
+}
+
+:root {
+    --link_white: white;
+}
+
+:root {
+    --link_visited: white;
+}
+
+/*Background Color*/
+
+:root {
+    --back_white: white;
+}
+
+:root {
+    --back_black: black;
+}
+
+
+/*Text Color*/
+
+:root {
+    --text_white: white;
+}
+
+:root {
+    --text_black: black;
+}
+
+/*About Us Color - Home Page*/
+:root {
+    --purple: #1D1520;
+}
+
+:root {
+    --text_purple: #282C3F;
+}
+
+:root {
+    --lightgray: #7E808C;
+}
+
+
+/*Contact Us - Home Page*/
+:root {
+    --back_offwhite: #EDEDEE;
+}
+
+
+/*Top Header - Main Page*/
+:root {
+    --back_darkpurple: #16101A;
+}
+
+:root {
+    --text_skin: #F5DCB5;
+}
+
+
+/*Side Bar Link Color*/
+:root {
+    --orange: #CC582B;
+}
+
+:root {
+    --cart_faded: #63616A;
+}
+
+
+/*Button Green*/
+:root {
+    --green: green;
+}
+
+/*Side Bar - Admin Panel*/
+:root {
+    --steel: #2C3E4E;
+}
+
+:root {
+    --back_gray: #F0F0F0;
+}

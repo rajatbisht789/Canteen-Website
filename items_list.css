@@ -1,0 +1,147 @@
+/*Sidebar Cuisine List*/
+
+#cuisine-view-container {
+    height: 555px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cuisine-view {
+    width: 300px;
+    height: 100%;
+    border: 1px solid #ccc;
+    padding: 0 14px 15px 14px;
+    overflow: auto;
+}
+
+.cuisine-heading {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "gothic", sans-serif;
+    font-size: 18px;
+    color: var(--lightgray);
+    margin-top: 15px;
+}
+
+.single-item-view {
+    height: 60px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+}
+
+.name-initial {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    background-color: indianred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text_white);
+    float: left
+}
+
+.name-and-price {
+    width: 300px;
+    height: 100%;
+    float: left;
+    margin-left: 15px;
+}
+
+.item-name {
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 2px;
+}
+
+.amount {
+    font-size: 14px;
+    color: gray;
+    font-family: sans-serif;
+    margin-top: 3px;
+}
+
+.add-button-container {
+    width: 400px;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.edit_button {
+    width: 60px;
+    height: 30px;
+    color: var(--text_white);
+    background-color: goldenrod;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 0;
+    margin-right: 10px;
+}
+
+.add-button {
+    width: 120px;
+    height: 30px;
+    color: var(--text_white);
+    background-color: firebrick;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 0;
+}
+
+.remove-button {
+    width: 130px;
+    height: 30px;
+    color: var(--text_white);
+    background-color: darkslateblue;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 0;
+    margin-left: 10px;
+}
+
+
+/*Menu Items Main*/
+
+#menu-list-sidebar {
+    width: 250px;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#menu {
+    font-size: 18px;
+    font-family: 'Lato_bold', sans-serif;
+    font-weight: 600;
+}
+
+#menu a {
+    color: var(--text_black);
+}
+
+#menu a:hover {
+    opacity: 0.8;
+}
+
+.active-link {
+    color: var(--orange) !important;
+}
+
+/*Main Items List*/
+
+#items-sidebar {
+    width: 835px;
+    height: 100%;
+    border: 1px solid #ccc;
+    padding: 0 15px;
+    overflow: auto;
+}

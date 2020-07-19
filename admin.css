@@ -1,0 +1,401 @@
+body {
+    background-color: var(--back_gray);
+}
+
+.side-links a {
+    color: var(--back_gray) !important;
+}
+
+.side-links a:hover {
+    opacity: 0.8;
+}
+
+.side-links a:visited {
+    color: var(--back_gray) !important;
+}
+
+.equal-spacing {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Top bar Container*/
+
+#topbar-container {
+    width: 100%;
+    height: 80px;
+    background-color: var(--back_black);
+    position: fixed;
+    z-index: 2;
+}
+
+#name-container {
+    width: 600px;
+    height: 100%;
+    margin: 0 50px 0 50px;
+    float: left;
+    color: var(--text_white);
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 16pt;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;    
+    font-size: 11pt;
+    margin-top: 5px !important;
+}
+
+
+/*Content Container*/
+
+#content-container {
+    height: 775px;
+    top: 80px;
+    background-color: var(--back_white);
+}
+
+#content-div {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*Sidebar*/
+
+#sidebar {
+    width: 230px;
+    height: 100%;
+    background-color: var(--steel);
+    color: var(--text_white);
+    padding: 25px;
+    float: left;
+    position: fixed;
+    font-size: 15px;
+}
+
+.side-header {
+    font-size: 12px;
+    color: lightgray;
+    font-family: "Lato_bold", sans-serif;
+}
+
+.side-links {
+    color: white;
+    margin-bottom: 5px;
+    font-family: "Lato", sans-serif;
+}
+
+.margin-top {
+    margin-top: 30px;
+}
+
+#avtivity-container {
+    width: 970px;
+    height: 100%;
+    position: relative;
+    left: 230;
+}
+
+#welcome-header {
+    height: 60px;
+    background-color: var(--steel);
+    padding: 10px 20px;
+    color: white;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+#desc-text {
+    font-size: 12px;
+    margin-top: 5px;
+    color: var(--back_offwhite);
+}
+
+
+/*Updates Container Style*/
+
+#updates-container {
+    width: 100%;
+    height: 100px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.updates {
+    height: 100%;
+    width: 296px;
+    background-color: var(--back_white);
+    padding: 10px;
+    -webkit-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    border-radius: 2px;
+}
+
+.show_hover:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.image-back {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-right: 15px;
+}
+
+.icons {
+    width: 25px;
+    height: 25px;
+}
+
+.orders {
+    background-color: coral;
+}
+
+.items {
+    background-color: cornflowerblue;
+}
+
+.users {
+    background-color: mediumseagreen;
+}
+
+.number {
+    font-family: 'Quicksand_Light', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.title {
+    font-family: 'Quicksand_Light', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.sub-title {
+    font-family: 'Quicksand_Light', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: dimgray;
+}
+
+
+/*Live Order Contatiner Styles*/
+
+.title_order {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+}
+
+#desc_order {
+    font-size: 13px;
+    font-weight: 100;
+}
+
+#date {
+    float: right;
+    margin: 4px 20px 0 0;
+}
+
+
+/*Date Selector Style*/
+
+#select-date {
+    margin-top: 3px;
+    margin-right: 14px;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#datepicker {
+    float: left;
+    border: 0;
+    width: 130px;
+    height: 22px;
+    padding-left: 30px;
+    background: url(images/calendar.png) no-repeat 8px 5px #fff;
+    background-size: 12px;
+}
+
+#search {
+    height: 22px;
+    color: var(--text_white);
+    background-color: var(--redbrick);
+    border: 0;
+}
+
+
+/*Live Order Display Style*/
+
+#live-order-container {
+    height: 580px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.live-order {
+    width: 455px;
+    height: 100%;
+    padding: 15px 0 15px 5px;
+    border-radius: 3px;
+    background-color: var(--back_white);
+    -webkit-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+}
+
+.title-image {
+    width: 25px;
+    float: left;
+    margin-left: 15px;
+    margin-top: -2px;
+}
+
+.margin-left {
+    margin-left: 8px !important;
+}
+
+.margin-bottom {
+    margin-bottom: 4px;
+}
+
+
+/*Individual Order View*/
+
+.order_details-container {
+    height: 480px;
+    overflow: auto;
+    padding: 8px 10px;
+}
+
+.order_details {
+    width: 420px;
+    height: 70px;
+    padding: 10px 8px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.name-initial {
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    background-color: burlywood;
+    display: flex;
+    color: white !important;
+    justify-content: center;
+    align-items: center;
+    color: var(--text_purple);
+    float: left;
+}
+
+.name-and-button {
+    width: 350px;
+    float: left;
+    padding-left: 15px;
+}
+
+.name-and-amount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.amount {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.delivery-time {
+    font-size: 12px;
+    font-family: "Helvetica", sans-serif;
+    margin-top: 3px;
+}
+
+.button-container {
+    margin-top: 8px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    color: white;
+    height: 23px;
+    border-radius: 4px;
+    border: 0;
+}
+
+.delete {
+    color: var(--redbrick);
+    background-color: transparent;
+    border: 1px solid var(--redbrick);
+}
+
+.view-detail {
+    width: 100px;
+    background-color: var(--steel);
+}
+
+.delivery {
+    width: 130px;
+    background-color: green;
+}
+
+.invoice {
+    width: 100px;
+    background-color: var(--orange);
+}
+
+#print {
+    width: 100px;
+    height: 25px;
+    margin: 20px 0;
+    border: 0;
+    background-color: green;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    float: right;
+}
+
+#agent-list {
+    font-size: 15px;
+    border: 0;
+    background-color: lightgray;
+}
+
+/*Invoice HTML File*/
+
+.margins {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
